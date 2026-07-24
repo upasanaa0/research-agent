@@ -1,0 +1,31 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# database files
+*.db
+*.sqlite3
+
+# vector memory (regenerates automatically)
+chroma_memory/
+
+# project agent files (auto-generated, project-specific)
+*.dv
+AGENTS.md
+project_registry.json
+
+# editors
+.idea/
+.vscode/
+
+# os
+.DS_Store
+Thumbs.db

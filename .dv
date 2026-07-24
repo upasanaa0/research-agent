@@ -1,0 +1,24 @@
+{
+  "folder": "new_langgraph2",
+  "summary": "Contains 17 files: .env, chat_summarizer.py, config.py, graph.py, history_store.py....",
+  "files": [
+    ".env",
+    "chat_summarizer.py",
+    "config.py",
+    "graph.py",
+    "history_store.py",
+    "llm.py",
+    "long_term_memory.db",
+    "main.py",
+    "memory_utils.py",
+    "nodes.py",
+    "pdf_agent.py",
+    "prompts.py",
+    "routing.py",
+    "state.py",
+    "tool_executor.py",
+    "tools.py",
+    "vector_memory.py"
+  ],
+  "updated_at": "2026-06-25T02:51:30.224633"
+}

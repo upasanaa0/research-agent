@@ -8,7 +8,7 @@ DB_URI = "postgresql://postgres:postgres@localhost:5432/postgres?sslmode=disable
 EXA_API_KEY    = os.getenv("EXA_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
-# rest of config unchanged...
+
 
 LLM_PROVIDER = "ollama"  # "ollama" or "nvidia"
 

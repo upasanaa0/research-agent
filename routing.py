@@ -24,11 +24,8 @@ def route_after_memory(state: State) -> Literal["direct_answer_node", "planner"]
     )
 
     if similarity >= DIRECT_ANSWER_THRESHOLD and can_answer:
-        print("[routing] → FULL RESEARCH pipeline (memory will guide continuation)")
-        return "planner"
-
-    if similarity >= DIRECT_ANSWER_THRESHOLD and not can_answer:
-        print("[routing] → FULL RESEARCH pipeline (memory not sufficient)")
+        print("[routing] → DIRECT ANSWER from memory")
+        return "direct_answer_node"
 
     print("[routing] → FULL RESEARCH pipeline")
     return "planner"
